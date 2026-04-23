@@ -614,3 +614,4 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+/* Reset App.css - global styles are in index.css */
