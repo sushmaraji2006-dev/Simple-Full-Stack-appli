@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111111;
+  background: #fff7ef;
+  line-height: 1.5;
+  font-weight: 400;
 :root {
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   line-height: 1.5;
@@ -27,12 +37,23 @@
 html,
 body,
 #root {
+  margin: 0;
+  min-height: 100%;
   min-height: 100%;
   margin: 0;
 }
 
 body {
   min-width: 320px;
+  background: #fff7ef;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
 }
 
 button,
